@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression" >
+<parameter name="url" value="https://www.amazon.com"></parameter>
+
+<listeners>
+
+<listener class-name="common.baseclass"></listener>
+
+</listeners>
+
+
+
+<test name="test1">
+<parameter name="brow" value="chrome"></parameter>
+<groups><run><include name="regression" /></run></groups>
+
+<classes>
+<class name="testng.project.NewTest1"></class>
+</classes>
+</test>
+
+
+
+
+
+
+
+
+
+
+</suite>

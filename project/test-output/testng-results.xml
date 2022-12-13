@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T05:21:36 EST" name="regression" finished-at="2022-12-12T05:22:14 EST" duration-ms="38464">
+    <groups>
+      <group name="regression">
+        <method signature="NewTest1.T1()[pri:0, instance:testng.project.NewTest1@14555e0a]" name="T1" class="testng.project.NewTest1"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-12-12T05:21:36 EST" name="test1" finished-at="2022-12-12T05:22:14 EST" duration-ms="38464">
+      <class name="testng.project.NewTest1">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:testng.project.NewTest1@14555e0a]" started-at="2022-12-12T05:21:36 EST" name="beforeTest" finished-at="2022-12-12T05:21:43 EST" duration-ms="7006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="T1()[pri:0, instance:testng.project.NewTest1@14555e0a]" started-at="2022-12-12T05:21:43 EST" name="T1" finished-at="2022-12-12T05:21:58 EST" duration-ms="15006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.project.NewTest1@14555e0a]" started-at="2022-12-12T05:21:58 EST" name="afterTest" finished-at="2022-12-12T05:22:14 EST" duration-ms="16260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.project.NewTest1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- regression -->
+</testng-results>
